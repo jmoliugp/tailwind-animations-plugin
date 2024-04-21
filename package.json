@@ -1,8 +1,9 @@
 {
   "name": "tailwind-animations-plugin",
-  "version": "1.0.0",
-  "description": "tailwind plugin to support animations",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Tailwind plugin to support animations",
+  "main": "./src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,10 +17,23 @@
     "plugin",
     "javascript"
   ],
-  "author": "Juan Oliu",
+  "author": "Juan Oliú",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jmoliugp/tailwind-animations-plugin/issues"
   },
-  "homepage": "https://github.com/jmoliugp/tailwind-animations-plugin#readme"
+  "homepage": "https://github.com/jmoliugp/tailwind-animations-plugin#readme",
+  "peerDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prettier": "^3.2.5",
+    "standard": "^17.1.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
 }
