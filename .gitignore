@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+
+# Debug logs
+yarn-debug.log*
+yarn-error.log*
