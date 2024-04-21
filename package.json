@@ -36,10 +36,7 @@
   "eslintConfig": {
     "extends": "standard",
     "rules": {
-      "comma-dangle": [
-        "error",
-        "never"
-      ]
+      "comma-dangle": "off"
     }
   }
 }
